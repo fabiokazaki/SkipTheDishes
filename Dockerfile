@@ -1,3 +1,5 @@
-FROM jenkins:latest
+FROM java:latest
 USER root
-RUN /bin/bash -c "apt-get update && apt-get install -y maven"
+COPY com.skipthedishes.msmarques.people-0.0.1-SNAPSHOT.jar /usr/src/
+WORKDIR /usr/src/
+RUN java -jar com.skipthedishes.msmarques.people-0.0.1-SNAPSHOT.jar &

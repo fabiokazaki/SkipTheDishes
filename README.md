@@ -9,5 +9,7 @@ Dockerfile was used to create the application
 
 
 Author Fabio Marcel Okazaki and Viviane Takeda
+
+
 Project used: git@github.com:murillomarques/skipTheDishes.git
 Author of the java project: Murillo Marques
